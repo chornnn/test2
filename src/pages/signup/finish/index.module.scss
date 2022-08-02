@@ -1,0 +1,41 @@
+.finish-form {
+  // flex-wrap: wrap;
+  // display: flex;
+  position: absolute;
+  // margin-bottom: 121px;
+  width: 100%;
+
+  margin-top: 75px;
+  height: calc(100% - 196px);
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  // height: auto;
+
+  .item-gap {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    margin-bottom: 16px;
+  }
+}
+
+.avtar-upload {
+  text-align: center;
+}
+
+.finish-area {
+  position: fixed;
+  bottom: 0;
+  //  box-shadow: 4px 2px 4px rgba(51, 51, 51, 0.15);
+  /* white */
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+  //  border-radius: 0px;
+  height: 121px;
+  width: calc(100% - 40px);
+
+  .finish-area-button {
+    margin-top: 22px;
+  }
+}

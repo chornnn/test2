@@ -1,0 +1,15 @@
+.container {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  background: #ffffff;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  margin: 24px;
+}

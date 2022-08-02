@@ -1,0 +1,24 @@
+.divided-area {
+  .line-area {
+    height: 1px;
+    // display: inline;
+
+    line-height: 1px;
+    width: 100%;
+    background: #eaeaea;
+    text-align: center;
+
+    .middle-text {
+      font-family: Metropolis;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      vertical-align: top;
+
+      padding: 0 8px;
+      background: white;
+      z-index: 10;
+      display: inline-block;
+    }
+  }
+}

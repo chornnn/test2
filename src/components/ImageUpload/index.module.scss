@@ -1,0 +1,22 @@
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 5px;
+}
+
+.upload-input-normal {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
+.upload-label-normal {
+  display: block;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

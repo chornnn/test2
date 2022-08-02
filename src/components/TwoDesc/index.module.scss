@@ -1,0 +1,33 @@
+.login-desc {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @media screen and (min-width: 769px) {
+    text-align: center;
+  }
+
+  .login-desc-title {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+  }
+
+  .login-desc-subtitle {
+    margin-top: 4px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+  }
+
+  .login-desc-sign-up {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #697ff5;
+  }
+}

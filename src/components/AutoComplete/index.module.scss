@@ -1,0 +1,148 @@
+.auto-simple-input-container {
+  width: 100%;
+  min-height: 55px;
+  overflow-y: visible;
+  z-index: 100;
+  position: relative;
+
+  @media screen and (min-width: 769px) {
+    width: 500px;
+  }
+
+  .auto-simple-input-container-title {
+    width: 100%;
+    display: block;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* Black */
+    color: #333333;
+  }
+
+  .map-pin {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .auto-simple-input-container-input {
+    outline: 0px;
+    padding-left: 20px;
+    width: calc(100% - 85px);
+    height: 38px;
+    background: #f5f5f5;
+    border-radius: 200px;
+    border: 0;
+  }
+
+  .search-clear {
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+.auto-search-container-normal {
+  display: flex;
+  align-items: center;
+  /* web bg */
+  height: 45px;
+  background: #f5f5f5;
+  flex-wrap: wrap;
+  border-radius: 200px;
+  margin-top: 10px;
+}
+
+.white-input {
+  background: white !important;
+  color: black !important;
+  border: 0 !important;
+}
+
+.search-container {
+  position: absolute;
+  width: 100%;
+  max-height: 220px;
+  height: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.25);
+}
+
+.current-location {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  .current-location-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+    margin-right: 5px;
+    position: relative;
+  }
+
+  .current-location-title {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #455df7;
+  }
+}
+
+.search-results {
+  margin-bottom: 0;
+  overflow: auto;
+  max-height: 150px;
+  height: auto;
+  margin-top: 8px;
+}
+
+.search-result {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+
+.suggestion-color {
+  color: black;
+}
+
+.simple-input-container-title-required {
+  color: red;
+}
+
+.simple-input-container-input-icon-area {
+  display: flex;
+}
+
+.showDropdown-area {
+  width: 100%;
+}
+
+.selected {
+  background: rgba(255, 211, 92, 0.3);
+  padding: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #4e2a21;
+  margin-bottom: 15px;
+  margin-right: 8px;
+  border: 0.8px solid #ffd35c;
+  box-sizing: border-box;
+  border-radius: 200px;
+}

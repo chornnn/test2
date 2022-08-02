@@ -1,0 +1,76 @@
+.icon-container {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  border-radius: 200px;
+  padding: 8px;
+  background: #ffd35c;
+}
+
+.icon-container-full-width {
+  border: 1px solid #a3a3a3;
+  box-sizing: border-box;
+  border-radius: 200px;
+  display: flex;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  background: #fff;
+  position: relative;
+
+  .icon-full-width {
+    position: absolute;
+    left: 1%;
+    text-align: center;
+  }
+
+  .icon-text {
+    flex: 1;
+    text-align: center;
+    width: 200px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &:hover {
+    background-color: #a3a3a3;
+
+    .icon-text {
+      color: #ffffff;
+    }
+  }
+}
+
+.slack {
+  color: #441b49;
+}
+
+.others {
+  color: #7a7a7a;
+}
+
+.groupme {
+  color: #0baaec;
+}
+
+.telegram {
+  color: linear-gradient(180deg, #00c6ff 6.76%, #0068ff 95.6%);
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.discord {
+  color: #7289da;
+}

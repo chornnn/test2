@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+
+  & > * {
+    margin: 8px;
+  }
+
+  @media screen and (min-width: 769px) {
+    margin: 0 auto;
+    width: 610px;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+}
+
+.header {
+  display: flex;
+  margin-bottom: 10px;
+}

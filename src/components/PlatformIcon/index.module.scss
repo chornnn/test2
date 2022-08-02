@@ -1,0 +1,57 @@
+.icon-container {
+  display: flex;
+  align-items: center;
+  border-radius: 200px;
+  padding: 7px;
+  margin-right: 8px;
+
+  .icon-text {
+    display: none;
+
+    @media screen and (min-width: 769px) {
+      display: block;
+      color: #ffffff;
+      font-family: Metropolis;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.slack {
+  background: #441b49;
+}
+
+.others {
+  background: #7a7a7a;
+}
+
+.groupme {
+  background: #00a1e9;
+}
+
+.telegram {
+  background: linear-gradient(180deg, #00c6ff 6.76%, #0068ff 95.6%);
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+.discord {
+  background: #7289da;
+}
+
+.custom {
+  background: #c4c4c4;
+  color: #ffffff;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  height: 18px;
+  width: 18px;
+}

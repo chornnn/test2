@@ -1,0 +1,85 @@
+.desktop-header {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-top: 65px;
+
+    .desktop-title {
+      font-family: Metropolis;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 48px;
+      margin-bottom: 16px;
+    }
+
+    .desktop-icon {
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      cursor: pointer;
+    }
+  }
+}
+
+.user-container {
+  @media screen and (min-width: 769px) {
+    height: auto;
+  }
+}
+
+.form {
+  width: 100%;
+
+  @media screen and (min-width: 769px) {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    width: 80%;
+    max-width: 800px;
+    overflow: visible;
+  }
+
+  .item-gap {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    margin-bottom: 16px;
+  }
+}
+
+.avatar-upload {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 769px) {
+    flex-direction: row;
+    margin-top: 16px;
+  }
+}
+
+.finish-area {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+  width: calc(100% - 40px);
+  margin-bottom: 200px;
+
+  @media screen and (min-width: 769px) {
+    width: 200px;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-bottom: 32px;
+  }
+
+  .finish-area-button {
+    margin-top: 22px;
+  }
+}

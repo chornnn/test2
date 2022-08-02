@@ -1,0 +1,27 @@
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.upload-input {
+  width: 80px;
+  height: 80px;
+  display: none;
+}
+
+.upload-label {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.upload-label-image {
+  width: 100%;
+  height: 100%;
+
+  img {
+    border-radius: 40px;
+  }
+}

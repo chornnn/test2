@@ -1,0 +1,237 @@
+.backdrop {
+  display: none;
+
+  @media screen and (min-width: 769px) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(51, 51, 51, 0.6);
+    z-index: 1001;
+  }
+}
+
+.mobile-header {
+  @media screen and (min-width: 769px) {
+    display: none;
+  }
+}
+
+.desktop-header {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+
+    .desktop-title {
+      font-family: Metropolis;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 48px;
+      margin-bottom: 16px;
+    }
+
+    .desktop-icon {
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      cursor: pointer;
+    }
+  }
+}
+
+.follow-container {
+  width: 100%;
+
+  @media screen and (min-width: 769px) {
+    z-index: 1002;
+    position: fixed;
+    top: 10%;
+    bottom: 5%;
+    height: calc(100vh - 15%);
+    overflow-y: scroll;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    width: 450px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+  }
+}
+
+.follow-list {
+  position: relative;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.follow-tab {
+  width: 100%;
+  margin-top: 16px;
+  position: relative;
+
+  .follow-tab-titles {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+
+    .follow-tab-title {
+      width: 50%;
+      padding: 5px;
+      text-align: center;
+      font-family: Metropolis;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #7a7a7a;
+      cursor: pointer;
+    }
+
+    .follow-tab-title-active {
+      color: #333333;
+    }
+  }
+}
+
+.follow-tab-lines {
+  display: flex;
+  width: 100%;
+
+  .follow-tab-line-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    .follow-tab-line {
+      position: absolute;
+      background: #ffd35c;
+      height: 3px;
+      width: 52px;
+      bottom: 0;
+    }
+  }
+}
+
+.follow-detail-desc-conatiner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 13px 0;
+
+  .follow-detail-right-section {
+    margin: 0 auto;
+    font-family: Metropolis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .follow-detail-social-image {
+      width: 80px;
+      height: 36px;
+    }
+
+    .follow-detail-social-button-following {
+      border: 1px solid #eaeaea;
+      border-radius: 200px;
+      width: 72px;
+      height: 28px;
+      line-height: 28px;
+      padding: 5px;
+      font-size: 12px;
+      text-align: center;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .follow-detail-social-button-follow {
+      background: #ffd35c;
+      border-radius: 200px;
+      font-size: 12px;
+      width: 72px;
+      height: 28px;
+      padding: 5px;
+      text-align: center;
+      line-height: 28px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .follow-detail-desc {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+    width: 100%;
+
+    .follow-detail-image {
+      width: 40px;
+      height: 40px;
+      margin-left: 16px;
+      position: relative;
+      cursor: pointer;
+
+      img {
+        border-radius: 30px;
+      }
+    }
+
+    .follow-detail-text {
+      width: 60%;
+      cursor: pointer;
+    }
+
+    .follow-detail-second-line {
+      display: flex;
+      margin-top: 5px;
+
+      .follow-detail-second-line-time {
+        font-family: Metropolis;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        margin-left: 6px;
+        color: #a3a3a3;
+      }
+    }
+
+    .follow-detail-first-line {
+      display: flex;
+      align-items: center;
+
+      .follow-detail-user {
+        margin-left: 6px;
+        font-family: Metropolis;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #333333;
+      }
+
+      .follow-detail-dot {
+        margin-left: 6px;
+        width: 4px;
+        height: 4px;
+      }
+
+      .follow-detail-follow {
+        font-family: Metropolis;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        margin-left: 6px;
+        color: #455df7;
+      }
+    }
+  }
+}

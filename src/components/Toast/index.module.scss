@@ -1,0 +1,26 @@
+.toast-container {
+  position: fixed;
+  bottom: 60px;
+  z-index: 1012;
+  left: 50%;
+
+  margin-left: -140px;
+
+  .toast {
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.9);
+    border-radius: 16px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    width: 255px;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

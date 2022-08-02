@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@images/*": ["./public/images/*"],
+      "@components/*": ["./src/components/*"],
+      "@store/*": ["./src/store/*"],
+      "@storage/*": ["./src/storage/*"],
+      "@hooks": ["./src/hooks/index.ts"],
+      "@firebase": ["./src/firebase/index.ts"],
+      "@search": ["./src/algoliasearch/index.ts"],
+      "@utils/*":["./src/utils/*"],
+      "@types": ["./src/types/index.ts"],
+      "@constants": ["./src/constants/index.ts"]
+    }
+  },
+  "include": [
+    "src", 
+    "globals.d.ts" 
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "group-hub-mobile-dev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "algoliasearch": "^4.11.0",
+    "better-react-spinkit": "^2.0.4",
+    "copy-to-clipboard": "^3.3.1",
+    "firebase": "^9.9.1",
+    "firebase-tools": "^11.4.1",
+    "lodash": "^4.17.21",
+    "next": "^12.0.2",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-placeholder": "^4.1.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.0",
+    "react-share": "^4.4.0",
+    "react-social-icons": "^5.8.0",
+    "react-swipeable": "^6.2.0",
+    "react-textarea-autosize": "^8.3.3",
+    "react-tooltip": "^4.2.21",
+    "react-transition-group": "^4.4.2",
+    "react-use": "^17.3.1",
+    "sass": "^1.43.4",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx,json,css,scss}' --loglevel error"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.ts"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jsdom",
+    "testRunner": "/Users/lee/Documents/GroupHub/group-hub-mobile-dev/node_modules/jest-circus/runner.js",
+    "transform": {
+      "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/config/jest/babelTransform.js",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "modulePaths": [],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ],
+    "resetMocks": true
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.34",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}

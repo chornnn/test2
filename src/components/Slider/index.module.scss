@@ -1,0 +1,32 @@
+.slider-model-panel-areas {
+  border: 0.8px solid #eaeaea;
+  box-sizing: border-box;
+  border-radius: 24px;
+  display: flex;
+
+  .slider-model-panel-area {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 200px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .slider-model-panel-area-active {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    background: rgba(255, 211, 92, 0.3);
+    border: 1px solid #ffd35c;
+    box-sizing: border-box;
+    border-radius: 200px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+}

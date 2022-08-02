@@ -1,0 +1,17 @@
+.form-area {
+  margin: 30px 20px;
+  flex: 1;
+  width: calc(100% - 40px);
+
+  @media screen and (min-width: 769px) {
+    flex: 0;
+  }
+}
+
+.confirm-button {
+  margin-top: 40px;
+}
+
+.input-button {
+  margin-bottom: 20px;
+}
